@@ -1,0 +1,74 @@
+.rewards-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .rewards-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 5rem;
+  }
+  
+  .rewards-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .reward-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+  }
+  
+  .reward-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .reward-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .rewards-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .join-button,
+  .login-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .join-button:hover,
+  .login-button:hover {
+    background-color: #0097a7;
+  }
+  
+  @media (max-width: 768px) {
+    .rewards-images {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .reward-item {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
