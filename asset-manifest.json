@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Vaneet014/Nando-s-Clone.git/static/css/main.f5971fed.css",
+    "main.js": "/Vaneet014/Nando-s-Clone.git/static/js/main.1d3abe76.js",
+    "static/media/bootstrap-icons.woff?": "/Vaneet014/Nando-s-Clone.git/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Vaneet014/Nando-s-Clone.git/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/Vaneet014/Nando-s-Clone.git/index.html",
+    "main.f5971fed.css.map": "/Vaneet014/Nando-s-Clone.git/static/css/main.f5971fed.css.map",
+    "main.1d3abe76.js.map": "/Vaneet014/Nando-s-Clone.git/static/js/main.1d3abe76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5971fed.css",
+    "static/js/main.1d3abe76.js"
+  ]
+}
