@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
 import './Header.css';
 
+
+
 function Header() {
   return (
     <Navbar expand="lg" className="custom-navbar">
@@ -45,11 +47,13 @@ function Header() {
               <NavDropdown.Item as={Link} to="/faq">FAQ</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/contact">Contact Us</NavDropdown.Item>
             </NavDropdown>
-          </Nav>
-
+           
+            <Nav.Link as={Link} to="/to-do-list">To-Do List</Nav.Link>
           <Button as={Link} to="/order-online" className="order-online-btn">
             Order Online
           </Button>
+          </Nav>
+        
         </Navbar.Collapse>
       </Container>
     </Navbar>
